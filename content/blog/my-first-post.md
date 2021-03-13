@@ -1,20 +1,30 @@
 ---
 title: Using semantic-release 
-date: 2020-05-22T20:47:18
+date: 2021-03-13T20:47:18
 excerpt: Here is a little bit about my first post.
 ---
 
-## Hello Dr. Zoidberg
-
-Dr. Zoidberg, that doesn't make sense. But, okay! No! The kind with looting and maybe starting a few fires! Well, then good news! It's a suppository. Hey, guess what you're accessories to. Hey, guess what you're accessories to.
-## I wanna check semantic-release
+### [semantic-release on Github](https://github.com/semantic-release/semantic-release#-semantic-release)
 
  
-<!--- ### Highlights --->
+### Highlights
 
+- Fully automated release
 
-_How it work_
+### How it work
 * it uses [Angular Commit Message Conventions](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format)
 tools such as commitizen or [commitlint](https://github.com/commitizen/cz-cli#using-the-command-line-tool) can be used to force contributors to write according to the styleguide
 
+### Requirements
+
+In order to use **semantic-release** you need:
+
+- To host your code in a [Git repository](https://git-scm.com)
+- Use a Continuous Integration service that allows you to [securely set up credentials](docs/usage/ci-configuration.md#authentication)
+- Git CLI version [2.7.1 or higher](docs/support/FAQ.md#why-does-semantic-release-require-git-version--271) installed in your Continuous Integration environment
+- [Node.js](https://nodejs.org) version [10.18 or higher](docs/support/FAQ.md#why-does-semantic-release-require-node-version--1018) installed in your Continuous Integration environment
+
+
+### Conclusion
+Tool is great for open source project, published on npm. Too much setup for small, private project. 
 
