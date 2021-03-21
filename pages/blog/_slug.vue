@@ -54,37 +54,56 @@ export default {
 }
 
 .nuxt-content {
-  h2 {
-    color: $c-navy;
-    font-family: $ff-sans;
-    @apply font-bold;
-    @apply mt-5 mb-5;
-    @apply pb-3;
-    border-bottom: 1px solid $c-border;
-    @apply text-4xl;
-    line-height: 1.3;
-  }
+  a {
+    color: $c-primary;
 
-  p,
-  li {
-    line-height: 1.7;
-    font-size: 16px;
-    font-family: $ff-serif;
-
-    @include breakpoint(600px) {
-      font-size: 18px;
+    &:hover {
+      text-decoration: underline;
     }
   }
 
-  p {
-    @apply mb-4;
+  h1,
+  h2 {
+    font-family: $ff-sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.299664px;
+    color: #2599e2;
+    @apply mb-2;
+
+    &:nth-child(n + 2) {
+      @apply mt-8;
+    }
   }
 
-  ul,
-  ol {
-    @apply list-decimal;
-    @apply list-inside;
-    @apply mb-4;
+  h1 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-family: $ff-sans;
+    @apply font-bold;
+    @apply text-xl;
+    @apply mt-3;
+    @apply mb-2;
+  }
+
+  ul {
+    @apply mt-3 mb-3 ml-6;
+    @apply list-disc;
+    font-family: PT Serif;
+    @apply text-lg;
+  }
+
+  li {
+    line-height: 1.6;
+  }
+
+  p {
+    font-family: PT Serif;
+    @apply text-lg;
   }
 }
 </style>

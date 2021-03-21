@@ -16,7 +16,7 @@ export default {
         Your Brand
       </h1>
       <p class="subtitle">Not your average blog boilerplate!</p>
-      <nuxt-link to="/learn" class="button">Call to Action!</nuxt-link>
+      <!--      <nuxt-link to="/learn" class="button">Call to Action!</nuxt-link>-->
     </div>
   </div>
 </template>

@@ -1,5 +1,9 @@
 export default {
   mode: 'universal',
+  target: 'static',
+  router: {
+    base: '/bens-blog-boilerplate/'
+  },
   /*
    ** Headers of the page
    */
